@@ -31,7 +31,8 @@ chrome_options.add_argument("--disable-javascript")  # Remove if you need JS
 chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
 
 # Use unique temp directory to avoid conflicts
-chrome_options.add_argument(f"--user-data-dir={temp_profile}")
+#chrome_options.add_argument(f"--user-data-dir={temp_profile}")
+chrome_options.add_argument("--profile-directory=Default")
 chrome_options.add_argument("--remote-debugging-port=0")  # Use random port
 chrome_options.add_argument("--disable-background-timer-throttling")
 chrome_options.add_argument("--disable-backgrounding-occluded-windows")
