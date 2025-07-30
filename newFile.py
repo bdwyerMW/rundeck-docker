@@ -1,5 +1,6 @@
 print("Starting testScrape.py...")
 
+print("testing the new git refreshes - it worked!")
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
